@@ -19,7 +19,7 @@ data files.
 %patch0 -p1
 
 %build
-make clean
+%{__make} clean
 make
 
 %install
