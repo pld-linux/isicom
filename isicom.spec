@@ -1,18 +1,24 @@
 Summary:	Multitech IntelligentSerialInternal (ISI) Support Tools
+Summary(pl):	Narzêdzia do obs³ugi Multitech IntelligentSerialInternal (ISI)
 Name:		isicom
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL (not Firmware)
-Group:		Utilities/System
-Group(pl):	Narzêdzia/System
-Source0:	isicom.tar.gz
-Patch0:		isicom-make.patch
+Group:		Applications/System
+Group(de):	Applikationen/System
+Group(pl):	Aplikacje/System
+Source0:	%{name}.tar.gz
+Patch0:		%{name}-make.patch
 URL:		http://www.multitech.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Binary images and loader for Multitech IntelligentSerialInternal (ISI)
 data files.
+
+%description -l pl
+Binarne obrazy i loader dla plików danych Multitech
+IntelligentSerialInternal (ISI).
 
 %prep
 %setup -q -n isicom
@@ -37,4 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr (755,root,root) %{_sbindir}/firmld
+%dir %{_datadir}/isicom
 %{_datadir}/isicom/*.bin
