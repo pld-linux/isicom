@@ -5,8 +5,6 @@ Version:	1.0
 Release:	2
 License:	GPL (not Firmware)
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	%{name}.tar.gz
 Patch0:		%{name}-make.patch
 URL:		http://www.multitech.com/
