@@ -6,6 +6,7 @@ Release:	2
 License:	GPL (not Firmware)
 Group:		Applications/System
 Source0:	%{name}.tar.gz
+# Source0-md5:	44e685867c7115db0a4865c159ea4ab9
 Patch0:		%{name}-make.patch
 URL:		http://www.multitech.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
