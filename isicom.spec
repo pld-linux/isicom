@@ -7,7 +7,7 @@ Group: Applications/System
 URL: http://www.multitech.com/
 Source: isicom.tar.gz
 Patch0: isicom-make.patch
-BuildRoot: /var/tmp/%{name}-%{PACKAGE_VERSION}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Binary images and loader for Multitech IntelligentSerialInternal (ISI) data
