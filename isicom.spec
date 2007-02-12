@@ -1,5 +1,5 @@
 Summary:	Multitech IntelligentSerialInternal (ISI) Support Tools
-Summary(pl):	Narzêdzia do obs³ugi Multitech IntelligentSerialInternal (ISI)
+Summary(pl.UTF-8):   NarzÄ™dzia do obsÅ‚ugi Multitech IntelligentSerialInternal (ISI)
 Name:		isicom
 Version:	1.0
 Release:	2
@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Binary images and loader for Multitech IntelligentSerialInternal (ISI)
 data files.
 
-%description -l pl
-Binarne obrazy i loader dla plików danych Multitech
+%description -l pl.UTF-8
+Binarne obrazy i loader dla plikÃ³w danych Multitech
 IntelligentSerialInternal (ISI).
 
 %prep
