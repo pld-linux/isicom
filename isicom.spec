@@ -1,5 +1,5 @@
 Summary:	Multitech IntelligentSerialInternal (ISI) Support Tools
-Summary(pl.UTF-8):   Narzędzia do obsługi Multitech IntelligentSerialInternal (ISI)
+Summary(pl.UTF-8):	Narzędzia do obsługi Multitech IntelligentSerialInternal (ISI)
 Name:		isicom
 Version:	1.0
 Release:	2
