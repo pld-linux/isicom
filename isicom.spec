@@ -21,7 +21,7 @@ IntelligentSerialInternal (ISI).
 
 %prep
 %setup -q -n isicom
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} clean
